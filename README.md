@@ -4,7 +4,7 @@ The bash script add the `[role="_abstract"]` tag to modules and assemblies.
 >*NOTE*: this script was created with the help of Claude AI tool.
 
 ## Steps:
-1. Download the script and put the file to the folder with your `.adoc` files, where you want the script to run, for example to the `modules/` folder.
+1. Download the script and put it to the folder with your `.adoc` files, where you want the script to run, for example to the `modules/` folder.
 2. Make it executable.
 3. Run the script: `./add_abstract_role.sh`
 
