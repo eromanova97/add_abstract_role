@@ -28,7 +28,7 @@ The file currenlty executes on all `*.adoc` files. If you are in the main repo a
 ```
 find . -name "*.adoc" -type f | while read -r file; do
 ```
--> change the `-name "*.adoc"` part to whatever you need, for example, if you want files that start on `monitoring-*`, simply change it to: `-name "monitoring-*.adoc"`:
+-> change the `-name "*.adoc"` part to whatever you need, for example, if you want files that start with the `monitoring-*` prefix, simply change it to: `-name "monitoring-*.adoc"`:
 ```
 find . -name "monitoring-*.adoc" -type f | while read -r file; do
 ```
