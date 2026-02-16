@@ -18,9 +18,9 @@ After its deprecation, the `[role="_abstract"]` tag is now required again becaus
 
 >*NOTE*: 
 >
->If you do not have blank lines there after your zero level headings in modules and after toc::[] in assemblies. The script will add the blank line together with the abstract tag.
+>If you do not have blank lines after your zero level headings in modules and after toc::[] in assemblies, the script will add the blank line together with the abstract tag.
 >
->The script will also not update any assembly files that lack `toc::[]`. instead, you will get a `Warning` message:
+>The script will also not update any assembly files that lack `toc::[]`. Instead, you will get a `Warning` message:
 >```
 >⚠ Warning: Assembly file <your-file>.adoc does not contain 'toc::[]' line - skipping
 >```
