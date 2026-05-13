@@ -3,14 +3,14 @@ The bash script to add the `[role="_abstract"]` tag to modules and assemblies.
 
 After its deprecation, the `[role="_abstract"]` tag is now required again because the DITA automation needs it to correctly recognize the document’s introduction.
 
->***NOTE***: **This script was created with the help of Claude Code tool.
+>***NOTE***: **This script was created with the help of Claude Code tool.**
 
-## Steps
+## Steps:
 1. Download the script and put it to the folder with your `.adoc` files, where you want the script to run, for example to the `modules/` folder.
 2. Make it executable (`chmod +x add_abstract_role.sh`).
 3. Run the script: `./add_abstract_role.sh`
 
-## How it works
+## How it works:
 - **For modules**, it will work for those files that have concept, reference, or procedure type correctly assigned:
     - It will add the `[role="_abstract"]` tag after the level zero heading, after one blank line.
 - **For assemblies**, it will work if you have the `:_mod-docs-content-type: ASSEMBLY` type correctly assigned:
